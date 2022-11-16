@@ -1,11 +1,13 @@
 import random as rd
-
+#taking input as A and B
 A=int(input('enter the start of range: '))
 B=int(input('enter the end of the range: '))
+#selecting number randomly using randint function
 computer=rd.randint(A,B)
 counter=0
 wrong=0
 while True:
+    #checking if user guessed for 3 times then taking exit
     if wrong<3: 
         player=int(input("Guess the Number between range :"))
         if player==00:
