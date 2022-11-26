@@ -26,6 +26,8 @@ while True:
             round+=1
         else:
             print('your answer was wrong, Try again ')
+            print('right answer is,',val)
+
             key,val=rd.choice(list(question.items()))
             round+=1
     else:
